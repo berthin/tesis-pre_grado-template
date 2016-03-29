@@ -1,0 +1,338 @@
+% Arquivo LaTeX de exemplo de dissertação/tese a ser apresentados à CPG do IME-USP
+% 
+% Versão 5: Sex Mar  9 18:05:40 BRT 2012
+%
+% Criação: Jesús P. Mena-Chalco
+% Revisão: Fabio Kon e Paulo Feofiloff
+%  
+% Obs: Leia previamente o texto do arquivo README.txt
+
+\documentclass[12pt,oneside,a4paper]{book}
+
+% ---------------------------------------------------------------------------- %
+% Pacotes
+\usepackage[OT1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{textcomp}
+\usepackage[pdftex]{graphicx}           % usamos arquivos pdf/png como figuras
+\usepackage{setspace}                   % espaçamento flexível
+\usepackage{indentfirst}                % indentação do primeiro parágrafo
+\usepackage{makeidx}                    % índice remissivo
+\usepackage[nottoc]{tocbibind}          % acrescentamos a bibliografia/indice/conteudo no Table of Contents
+\usepackage{courier}                    % usa o Adobe Courier no lugar de Computer Modern Typewriter
+\usepackage{type1cm}                    % fontes realmente escaláveis
+\usepackage{listings}                   % para formatar código-fonte (ex. em Java)
+\usepackage{titletoc}
+%\usepackage[bf,small,compact]{titlesec} % cabeçalhos dos títulos: menores e compactos
+\usepackage{titlesec}
+\usepackage[fixlanguage]{babelbib}
+\usepackage[font=small,format=plain,labelfont=bf,up,textfont=it,up]{caption}
+\usepackage[usenames,svgnames,dvipsnames]{xcolor}
+\usepackage[a4paper,top=2.54cm,bottom=2.0cm,left=2.0cm,right=2.54cm]{geometry} % margens
+%\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=black,linkcolor=black,urlcolor=black,filecolor=black,bookmarksopen=true]{hyperref} % links em preto
+\usepackage[pdftex,plainpages=false,pdfpagelabels,pagebackref,colorlinks=true,citecolor=DarkGreen,linkcolor=NavyBlue,urlcolor=DarkRed,filecolor=green,bookmarksopen=true]{hyperref} % links coloridos
+\usepackage[all]{hypcap}                    % soluciona o problema com o hyperref e capitulos
+\usepackage[square,sort,nonamebreak]{natbib} % citação bibliográfica textual(plainnat-ime.bst)
+\bibpunct{[}{]}{;}{a}{\hspace{-0.7ex},}{,} % estilo de citação. Veja alguns exemplos em http://merkel.zoneo.net/Latex/natbib.php
+
+\fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
+
+%%%%%----MIO
+\usepackage{blindtext} %lorem-ipsum
+\usepackage{float}
+\usepackage{array,multirow}
+%\usepackage{enumerate}
+%\usepackage{tikz}
+\usepackage{subfig}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+%\theoremstyle{plain}
+%Teoremas, definiciones y ejemplos
+\newtheorem{thm}{Teorema}[section] % reset theorem numbering for each chapter
+\theoremstyle{definition}
+\newtheorem{defn}[thm]{Definición} % definition numbers are dependent on theorem numbers
+\newtheorem{exmp}[thm]{Example} % same for example numbers
+%\renewcommand{\figurename}{Figura.}
+%\renewcommand{\tablename}{Tabla.}
+\addto\captionsenglish{\renewcommand{\figurename}{Figura.}}
+\addto\captionsenglish{\renewcommand{\tablename}{Tabla.}}
+\usepackage{wrapfig}
+%%%%%---MIO
+%%% tabla
+%\usepackage[table]{xcolor}
+%\usepackage[margin=1in]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\setlist{nolistsep}
+\definecolor{green}{HTML}{66FF66}
+\definecolor{myGreen}{HTML}{009900}
+\usepackage{appendix}
+
+%\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\arraystretch}{1.5}
+
+\renewcommand\spanishtablename{Tabla}
+\usepackage{csvsimple}
+\usepackage{pdfpages}
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{2pt}{\Large\MakeUppercase}
+  
+\titleformat{\section}{\normalfont\scshape\bfseries}{\textbf{\thesection}}{1em}{\MakeUppercase}
+\titleformat{\subsection}{\normalfont\bfseries}{\textbf{\thesubsection}}{1em}{}
+%\allsectionsfont{\mdseries\scshape}
+
+
+\usepackage{hyperref}
+
+%%%
+% ---------------------------------------------------------------------------- %
+% Cabeçalhos similares ao TAOCP de Donald E. Knuth
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{#1}}{}}
+\renewcommand{\sectionmark}[1]{\markright{\MakeUppercase{#1}}{}}
+%\renewcommand{\chaptermark}[1]{\markboth{{#1}}{}}
+%\renewcommand{\sectionmark}[1]{\markright{{#1}}{}}
+\renewcommand{\headrulewidth}{0pt}
+
+%\usepackage{caption}
+% ---------------------------------------------------------------------------- %
+\graphicspath{{./figuras/}}             % caminho das figuras (recomendável)
+\frenchspacing                          % arruma o espaço: id est (i.e.) e exempli gratia (e.g.) 
+\urlstyle{same}                         % URL com o mesmo estilo do texto e não mono-spaced
+\makeindex                              % para o índice remissivo
+\raggedbottom                           % para não permitir espaços extra no texto
+\fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
+\cleardoublepage
+\normalsize
+%%Comment Out
+\newcommand{\commentOut}[1]{}
+% ---------------------------------------------------------------------------- %
+% Opções de listing usados para o código fonte
+% Ref: http://en.wikibooks.org/wiki/LaTeX/Packages/Listings
+\lstset{ %
+language=Java,                  % choose the language of the code
+basicstyle=\footnotesize,       % the size of the fonts that are used for the code
+numbers=left,                   % where to put the line-numbers
+numberstyle=\footnotesize,      % the size of the fonts that are used for the line-numbers
+stepnumber=1,                   % the step between two line-numbers. If it's 1 each line will be numbered
+numbersep=5pt,                  % how far the line-numbers are from the code
+showspaces=false,               % show spaces adding particular underscores
+showstringspaces=false,         % underline spaces within strings
+showtabs=false,                 % show tabs within strings adding particular underscores
+frame=single,	                % adds a frame around the code
+framerule=0.6pt,
+tabsize=2,	                    % sets default tabsize to 2 spaces
+captionpos=b,                   % sets the caption-position to bottom
+breaklines=true,                % sets automatic line breaking
+breakatwhitespace=false,        % sets if automatic breaks should only happen at whitespace
+escapeinside={\%*}{*)},         % if you want to add a comment within your code
+backgroundcolor=\color[rgb]{1.0,1.0,1.0}, % choose the background color.
+rulecolor=\color[rgb]{0.8,0.8,0.8},
+extendedchars=true,
+xleftmargin=10pt,
+xrightmargin=10pt,
+framexleftmargin=10pt,
+framexrightmargin=10pt
+}
+
+\lstdefinestyle{customc}{
+  escapeinside={\%*}{*)},
+  captionpos = b,
+  belowcaptionskip=1\belowcaptionskip,
+  breaklines=true,
+  numbers=left,
+  numbersep=5pt,
+  numberstyle=\tiny\color{gray},
+  language=C++,
+  showstringspaces=false,
+  basicstyle=\footnotesize\ttfamily,
+  morekeywords={*,para,hasta,inicio,fin,repetir,veces},
+  keywordstyle=\bfseries\color{green!40!black},
+  commentstyle=\itshape\color{purple!40!black},
+  identifierstyle=\color{blue},
+  stringstyle=\color{orange},
+  emph = {Union}, emphstyle = \color{purple},
+  emph = {[2]Find}, emphstyle = {[2]\color{purple}}
+}
+\renewcommand*\lstlistingname{Algoritmo}
+%----------------------------%
+\hyphenation{per-so-nal res-pec-to}
+
+
+% ---------------------------------------------------------------------------- %
+% Corpo do texto
+\parindent=2.5em
+\begin{document}
+\frontmatter 
+% cabeçalho para as páginas das seções anteriores ao capítulo 1 (frontmatter)
+\fancyhead[RO]{{\footnotesize\rightmark}\hspace{2em}\thepage}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\fancyhead[LE]{\thepage\hspace{2em}\footnotesize{\leftmark}}
+\fancyhead[RE,LO]{}
+\fancyhead[RO]{{\footnotesize\rightmark}\hspace{2em}\thepage}
+\onehalfspacing  % espaçamento
+
+% ---------------------------------------------------------------------------- %
+% CAPA
+% Nota: O título para as dissertações/teses do IME-USP devem caber em um 
+% orifício de 10,7cm de largura x 6,0cm de altura que há na capa fornecida pela SPG.
+\thispagestyle{empty}
+
+\begin{center}
+
+\textsc{\large Universidad Nacional de San Antonio Abad del Cusco}\\\vspace*{0.04in}
+\textsc{FACULTAD DE CIENCAS QUÍMICAS, FÍSICAS Y MATEMÁTICAS}\\
+\vspace*{0.04in}
+CARRERA PROFESIONAL DE INGENIERÍA INFORMÁTICA Y DE SISTEMAS \\
+
+\captionsetup[figure]{labelformat=empty}
+\begin{figure}[htb]
+\begin{center}
+\includegraphics[width=6cm]{UNSAAC}
+\caption[]{}
+\end{center}
+\end{figure}
+
+\newcommand{\topline}{
+  \rule{164mm}{2mm}
+  \vspace*{-0.23in}
+  \hrule  
+}
+\newcommand{\downline}{
+  \hrule  
+  \vspace*{0.02in}
+  \rule{164mm}{2mm}
+}
+
+\vspace*{-0.6in}
+\textbf{TESIS}\\
+\topline
+\vspace*{0.1in}
+\begin{large}
+\textbf{``TITULO DEL TRABAJO''} \\
+\end{large}
+\vspace*{0.08in}
+\downline
+\vspace*{0.25in}
+
+\begin{minipage}{\linewidth}
+  \large
+  \centering    
+  \begin{minipage}{0.45\linewidth}
+  \end{minipage}
+  \hspace{0.28\linewidth}
+  \begin{minipage}{0.7\linewidth}
+    \begin{normalsize}
+    Para optar al título profesional de:
+    \vspace*{-0.1in}
+    \\\textbf{INGENIERO INFORMÁTICO Y DE SISTEMAS}\\
+    Presentado por: \vspace*{-0.1in}
+    \\\textbf{AUTOR}\\
+    Asesor: \vspace*{-0.1in}
+    \\\textbf{ASESOR}\\
+    Co-asesores: \vspace*{-0.1in}
+    \\\textbf{CO-ASESOR 1} \vspace*{-0.1in}
+    \\\textbf{CO-ASESOR 2}
+    \end{normalsize}
+  \end{minipage}
+\end{minipage}
+
+\vspace*{0.5in}
+\textbf{CUSCO - PERÚ} \\
+\textbf{[A\~NO]}
+\end{center}
+
+\pagenumbering{roman}     % começamos a numerar 
+
+% ---------------------------------------------------------------------------- %
+% Agradecimentos:
+% Se o candidato não quer fazer agradecimentos, deve simplesmente eliminar esta página 
+\chapter*{Dedicatoria}
+El presente trabajo está dedicado a ...
+%\chapter*{Agradecimientos}
+% [edit]
+% ---------------------------------------------------------------------------- %
+
+%\clearpage
+%Una imagen vale más que mil palabras, pero pesa mucho más...
+
+\chapter*{Resumen}
+
+\blindtext
+\\
+
+\noindent \textbf{Palabras clave:} keyword1, keyword2, keyword3.
+
+% ---------------------------------------------------------------------------- %
+% Abstract
+\chapter*{Abstract}
+
+\blindtext
+\\
+
+\noindent \textbf{Keywords:} keyword1, keyword2, keyword3.
+
+\tableofcontents    % imprime o sumário
+
+% ---------------------------------------------------------------------------- %
+% Listas de figuras e tabelas criadas automaticamente
+\renewcommand\listtablename{ÍNDICE DE TABLAS}
+\renewcommand\listfigurename{ÍNDICE DE FIGURAS}
+\listoftables
+\listoffigures
+
+% ---------------------------------------------------------------------------- %
+% Capítulos do trabalho
+\mainmatter
+
+% cabeçalho para as páginas de todos os capítulos
+\fancyhead[RE,LO]{\thesection}
+
+%\singlespacing              % espaçamento simples
+\onehalfspacing            % espaçamento um e meio
+
+\input cap-introducion
+\part{ASPECTOS GENERALES}
+\input cap-aspectosgenerales
+
+\part{MARCO TEÓRICO}
+\input cap-marcoteorico
+\input cap-metodologia
+
+\part{DESARROLLO DEL ENFOQUE PROPUESTO}
+\input cap-aspectosenfoque  
+\input cap-experimentos
+\input cap-resultados
+
+\input cap-conclusiones
+\input cap-trabajosfuturos
+
+\nocite{*}
+% ---------------------------------------------------------------------------- %
+% Bibliografia
+\renewcommand\bibname{BIBLIOGRAFÍA}
+\backmatter \singlespacing   % espaçamento simples
+\bibliographystyle{ieeetr} % citação bibliográfica textual
+\bibliography{bibliografia}  % associado ao arquivo: 'bibliografia.bib'
+
+%-------------------------------------------
+%\include{ape-conjuntos}      % associado ao arquivo: 'ape-conjuntos.tex'
+\renewcommand{\appendixname}{Anexo}
+\renewcommand{\appendixtocname}{ANEXOS}
+\renewcommand{\appendixpagename}{ANEXOS}
+\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\appendixname\ \thechapter}} {\MakeUppercase{#1}} }
+\fancyhead[RE,LO]{}
+\appendix
+\clearpage
+\addappheadtotoc
+\appendixpage
+\include{ape-laptop}
+
+\end{document}

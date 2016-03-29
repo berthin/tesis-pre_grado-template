@@ -1,0 +1,420 @@
+\begin{thebibliography}{10}
+
+\bibitem{Chellapilla:2006:CMC}
+K.~Chellapilla, M.~Shilman, and P.~Simard, ``Combining multiple classifiers for
+  faster optical character recognition,'' in {\em Proceedings of the 7th
+  international conference on Document Analysis Systems}, DAS'06, (Berlin,
+  Heidelberg), pp.~358--367, Springer-Verlag, 2006.
+
+\bibitem{Liu:2008:CLMCR}
+C.-L. Liu and H.~Fujisawa, ``Classification and learning methods for character
+  recognition: Advances and remaining problems,'' in {\em Machine Learning in
+  Document Analysis and Recognition} (S.~Marinai and H.~Fujisawa, eds.),
+  vol.~90 of {\em Studies in Computational Intelligence}, pp.~139--161,
+  Springer Berlin Heidelberg, 2008.
+
+\bibitem{Liu:2002:PEPC}
+C.-L. Liu, H.~Sako, and H.~Fujisawa, ``Performance evaluation of pattern
+  classifiers for handwritten character recognition,'' {\em International
+  Journal on Document Analysis and Recognition}, vol.~4, no.~3, pp.~191--204,
+  2002.
+
+\bibitem{Yu:1995:LTinCCI}
+Y.~Zhong, K.~Karu, and A.~Jain, ``Locating text in complex color images,'' in
+  {\em Document Analysis and Recognition, 1995., Proceedings of the Third
+  International Conference on}, vol.~1, pp.~146--149 vol.1, 1995.
+
+\bibitem{Keerthi:2007:CRFvsSVM}
+S.~Keerthi, ``Crf versus svm-struct for sequence labeling,'' tech. rep., Yahoo
+  Research, 2007.
+
+\bibitem{Li:2000:ATDandTDV}
+H.~Li, D.~Doermann, and O.~Kia, ``Automatic text detection and tracking in
+  digital video,'' {\em Image Processing, IEEE Transactions on}, vol.~9, no.~1,
+  pp.~147--156, 2000.
+
+\bibitem{McCallum:1998:CEMforNBTC}
+A.~McCallum and K.~Nigam, ``A comparison of event models for naive bayes text
+  classification,'' in {\em In AAAI-98 Workshop on learning for text
+  categorization}, pp.~41--48, AAAI Press, 1998.
+
+\bibitem{Wu:1999:Textfinder}
+V.~Wu, R.~Manmatha, and E.~Riseman, ``Textfinder: an automatic system to detect
+  and recognize text in images,'' {\em Pattern Analysis and Machine
+  Intelligence, IEEE Transactions on}, vol.~21, no.~11, pp.~1224--1229, 1999.
+
+\bibitem{Wu:1997:FTI}
+V.~Wu, R.~Manmatha, and E.~M. Riseman, ``Finding text in images,'' in {\em
+  Proceedings of the second ACM international conference on Digital libraries},
+  DL '97, (New York, NY, USA), pp.~3--12, ACM, 1997.
+
+\bibitem{Breiman:2001:RF}
+L.~Breiman, ``Random forests,'' {\em Machine Learning}, vol.~45, pp.~5--32,
+  Oct. 2001.
+
+\bibitem{Smith:2007:OofTesseO}
+R.~Smith, ``An overview of the tesseract ocr engine,'' in {\em Proceedings of
+  the Ninth International Conference on Document Analysis and Recognition -
+  Volume 02}, ICDAR '07, (Washington, DC, USA), pp.~629--633, IEEE Computer
+  Society, 2007.
+
+\bibitem{Biggio:2007:ISFusingVI}
+B.~Biggio, G.~Fumera, I.~Pillai, and F.~Roli, ``Image spam filtering using
+  visual information,'' {\em Image Analysis and Processing, International
+  Conference on}, vol.~0, pp.~105--110, 2007.
+
+\bibitem{Presti:2011:IAP}
+L.~Lo~Presti and M.~Cascia, ``Entropy-based localization of textured regions,''
+  in {\em Image Analysis and Processing – ICIAP 2011} (G.~Maino and
+  G.~Foresti, eds.), vol.~6978 of {\em Lecture Notes in Computer Science},
+  pp.~616--625, Springer Berlin Heidelberg, 2011.
+
+\bibitem{Cormen:2001:IA}
+T.~H. Cormen, C.~Stein, R.~L. Rivest, and C.~E. Leiserson, {\em Introduction to
+  Algorithms}.
+\newblock McGraw-Hill Higher Education, 2nd~ed., 2001.
+
+\bibitem{Wayne:2011:Alg}
+R.~Sedgewick and K.~Wayne, {\em Algorithms}.
+\newblock Addison-Wesley Professional, 4th~ed., 2011.
+
+\bibitem{Bishop:2006:PRandML}
+C.~M. Bishop, {\em Pattern Recognition and Machine Learning}.
+\newblock Springer, 1st~ed., 2006.
+
+\bibitem{Sonka:2007:IPA}
+M.~Sonka, V.~Hlavac, and R.~Boyle, {\em Image Processing, Analysis, and Machine
+  Vision}.
+\newblock Thomson-Engineering, 2007.
+
+\bibitem{Norman:2011:TARP}
+N.~Matloff, {\em The art of R programming tour of statistical software design}.
+\newblock No Starch Press, 2011.
+
+\bibitem{Sasha:2007:EEIinMWN}
+U.~V. Sasha~Dekleva, J. P.~Shim and G.~Knoerzer, ``Evolution and emerging
+  issues in mobile wireless networks,'' {\em Communications of the ACM,
+  International Conference on}, vol.~0, pp.~105--110, 2007.
+
+\bibitem{Berman:2003:GCM}
+T.~Hey and A.~Trefethen, ``The data deluge: an e-science perspective,'' in {\em
+  Grid Computing: Making the Global Infrastructure a Reality} (G.~F.
+  Fran~Berman and T.~Hey, eds.), pp.~809 -- 824, 2003.
+
+\bibitem{Frankel:1996:WIS}
+C.~Frankel, M.~J. Swain, and V.~Athitsos, ``Webseer: An image search engine for
+  the world wide web,'' tech. rep., Chicago, IL, USA, 1996.
+
+\bibitem{Jain00statisticalpattern}
+A.~K. Jain, R.~P.~W. Duin, and J.~Mao, ``Statistical pattern recognition: A
+  review,'' {\em IEEE Transactions on pattern analysis and machine
+  intelligence}, vol.~22, no.~1, pp.~4--37, 2000.
+
+\bibitem{Rabiner89atutorial}
+L.~R. Rabiner, ``A tutorial on hidden markov models and selected applications
+  in speech recognition,'' in {\em Proceedings of the IEEE}, pp.~257--286,
+  1989.
+
+\bibitem{NoSQLes:Online}
+MegaSonik, ``Nosql.es.'' \url{http://www.nosql.es/blog}, Abril 2010.
+
+\bibitem{MTC:MDCTACC}
+M.~de~Transportes~y Comunicaciones~Perú, ``Manual de dispositivos de control
+  de tránsito automotor para calles y carreteras.''
+  \url{http://www.mtc.gob.pe/portal/transportes/caminos_ferro/manual/Transito/index.htm},
+  2000.
+
+\bibitem{Due:1996:FEMforCR}
+Øivind Due~Trier, A.~K. Jain, and T.~Taxt, ``Feature extraction methods for
+  character recognition-a survey,'' {\em Pattern Recognition}, vol.~29, no.~4,
+  pp.~641 -- 662, 1996.
+
+\bibitem{Miller:2007:GTS}
+A.~D. Miller and W.~K. Edwards, ``Give and take: a study of consumer
+  photo-sharing culture and practice,'' in {\em Proceedings of the SIGCHI
+  Conference on Human Factors in Computing Systems}, CHI '07, (New York, NY,
+  USA), pp.~347--356, ACM, 2007.
+
+\bibitem{Moore:1965:CCIC}
+G.~E. Moore, ``Cramming more components onto integrated circuits,'' {\em
+  Electronics}, vol.~38, April 1965.
+
+\bibitem{Ruby:1981:STP}
+J.~Ruby, ``Seeing through pictures: The anthropology of photography,'' {\em
+  Camera Lucida: The Journal of Photographic Criticism}, vol.~3, pp.~19--32,
+  1981.
+
+\bibitem{Myhrvold:2006:MLCPP}
+N.~Myhrvold, ``Moore's law corollary: Pixel power.''
+  \url{http://www.nytimes.com/2006/06/07/technology/circuits/07essay.html?_r=1},
+  2006.
+
+\bibitem{Fraser:2011:PTS}
+A.~Fraser, ``Photo taking and sharing. who does it?.''
+  \url{http://conversations.nokia.com/2011/05/31/photo-taking-and-sharing-who-does-it/},
+  2011.
+
+\bibitem{Edelman:1997:CaE}
+S.~Edelman, ``Curiosity and exploration.''
+  \url{http://www.csun.edu/~vcpsy00h/students/explore.htm}, 1997.
+
+\bibitem{Stewart:1979:CaK}
+R.~S. Jones, ``Curiosity and knowledge,'' {\em Psychological Reports}, vol.~45,
+  no.~2, pp.~639 -- 642, 1979.
+
+\bibitem{Lywood:1957:CaC}
+F.~L. Wren, ``Curiosity and culture,'' {\em The Mathematics Teacher}, vol.~50,
+  no.~5, pp.~361 -- 373, 1957.
+
+\bibitem{Lee:1992:MNST}
+T.-H. Lee and J.~Crompton, ``Measuring novelty seeking in tourism,'' {\em
+  Annals of Tourism Research}, vol.~19, no.~4, pp.~732 -- 751, 1992.
+
+\bibitem{Baz:2009:DM}
+M.~�.~R. Arturo Baz~Alonso, Irene Ferreira~Artime and R.~G. Baniello,
+  ``Dispositivos móviles,'' 2009.
+
+\bibitem{Mejia:2005:MIC}
+E.~M. Mejía, {\em Metodología de la Investigación Científica}.
+\newblock Lima, Perú: Universidad Nacional Mayor de San Marcos, 1st~ed., 2005.
+
+\bibitem{Hernandez:1999:MI}
+C.~F. C. y. P. B.~L. Roberto Hernández~Sampieri, {\em Metodología de la
+  Investigación}.
+\newblock McGraw-Hill Interamericana, 2nd~ed., 1999.
+
+\bibitem{Kumar:2013:NNforRT}
+G.~Kumar and P.~K. Bhatia, ``Article: Neural network based approach for
+  recognition of text images,'' {\em International Journal of Computer
+  Applications}, vol.~62, pp.~8--13, January 2013.
+\newblock Published by Foundation of Computer Science, New York, USA.
+
+\bibitem{Misra:2012:TEandR}
+C.~Misra, P.~K. Swain, and J.~K. Mantri, ``Article: Text extraction and
+  recognition from image using neural network,'' {\em International Journal of
+  Computer Applications}, vol.~40, pp.~13--19, February 2012.
+\newblock Published by Foundation of Computer Science, New York, USA.
+
+\bibitem{Chen:2009:LPTLusingDWT}
+T.~Chen, ``License plate text localization using dwt and neural network,'' in
+  {\em Granular Computing, 2009, GRC '09. IEEE International Conference on},
+  pp.~73--77, 2009.
+
+\bibitem{Kwasnicka:2002:LPLandR}
+H.~Kwa{\'s}nicka and B.~Wawrzyniak, ``License plate localization and
+  recognition in camera pictures,'' in {\em 3rd Symposium on Methods of
+  Artificial Intelligence}, 2002.
+
+\bibitem{Wanniarachchi:2007:LPIbasedIPT}
+W.~Wanniarachchi, D.~U.~J. Sonnadara, and M.~K. Jayananda, ``License plate
+  identification based on image processing techniques,'' in {\em Industrial and
+  Information Systems, 2007. ICIIS 2007. International Conference on},
+  pp.~373--378, 2007.
+
+\bibitem{Tatiane:2001:RCAP}
+T.~J. de~Campos, ``Reconhecimento de caracteres alfanuméricos de placas em
+  imagens de veículos,'' Master's thesis, Universidade Federal do Rio Grande
+  do Sul - Instituto de Informática, 2001.
+
+\bibitem{Heil:1989:C&DWT}
+C.~Heil and D.~Walnut, ``{Continuous and Discrete Wavelet Transforms},'' {\em
+  SIAM Review}, vol.~31, no.~4, pp.~628--666, 1989.
+
+\bibitem{Burrus:1998:ItoW}
+C.~S. Burrus, R.~A. Gopinath, H.~Guo, J.~E. Odegard, and I.~W. Selesnick, {\em
+  Introduction to wavelets and wavelet transforms: a primer}, vol.~23.
+\newblock Prentice hall Upper Saddle River, 1998.
+
+\bibitem{Marques:1999:Equalizacao}
+O.~Marques~Filho and H.~V. Neto, {\em Processamento digital de imagens}.
+\newblock Brasport, 1999.
+
+\bibitem{Gonzalez:2002:DIP}
+R.~C. Gonzalez and R.~E. Woods, {\em Digital Image Processing: Introduction}.
+\newblock Prentice Hall, 2002.
+
+\bibitem{Li:2010:CRFforTS}
+M.~Li, M.~Bai, C.~Wang, and B.~Xiao, ``Conditional random field for text
+  segmentation from images with complex background,'' {\em Pattern Recognition
+  Letters}, vol.~31, no.~14, pp.~2295 -- 2308, 2010.
+
+\bibitem{Song:2008:ITEbasedKMC}
+Y.~Song, A.~Liu, L.~Pang, S.~Lin, Y.~Zhang, and S.~Tang, ``A novel image text
+  extraction method based on k-means clustering,'' in {\em Computer and
+  Information Science, 2008. ICIS 08. Seventh IEEE/ACIS International
+  Conference on}, pp.~185--190, 2008.
+
+\bibitem{Moller:1993:ScaledGD}
+M.~F. M{\o}ller, ``A scaled conjugate gradient algorithm for fast supervised
+  learning,'' {\em Neural networks}, vol.~6, no.~4, pp.~525--533, 1993.
+
+\bibitem{Demirkaya:2004:DIBthreshold}
+O.~Demirkaya and M.~H. Asyali, ``Determination of image bimodality thresholds
+  for different intensity distributions,'' {\em Signal Processing: Image
+  Communication}, vol.~19, no.~6, pp.~507 -- 516, 2004.
+
+\bibitem{Otsu:1979:Threshold}
+N.~OTSU, ``A threshold selection method from gray-level histogram,'' {\em IEEE
+  Trans. on Systems, Man, and Cybernetics}, vol.~9, pp.~62--66, 1979.
+
+\bibitem{Sezgin:2004:Survey}
+M.~Sezgin {\em et~al.}, ``Survey over image thresholding techniques and
+  quantitative performance evaluation,'' {\em Journal of Electronic imaging},
+  vol.~13, no.~1, pp.~146--168, 2004.
+
+\bibitem{Niblack:1985:IDI}
+W.~Niblack, {\em An Introduction to Digital Image Processing}.
+\newblock Birkeroed, Denmark, Denmark: Strandberg Publishing Company, 1985.
+
+\bibitem{Bernsen:1986:DTofGI}
+J.~Bernsen, ``Dynamic thresholding of grey-level images,'' in {\em Proc. 8th
+  ICPR}, vol.~1, pp.~252--255, 1986.
+
+\bibitem{Zack:1977:AMofSCRF}
+G.~Zack, W.~Rogers, and S.~Latt, ``Automatic measurement of sister chromatid
+  exchange frequency.,'' {\em Journal of Histochemistry \& Cytochemistry},
+  vol.~25, no.~7, pp.~741--753, 1977.
+
+\bibitem{McCulloch:1943:TBofMB}
+W.~McCulloch and W.~Pitts, ``A logical calculus of the ideas immanent in
+  nervous activity,'' {\em The bulletin of mathematical biophysics}, vol.~5,
+  no.~4, pp.~115--133, 1943.
+
+\bibitem{Han:1995:TIofSF}
+J.~Han and C.~Moraga, ``The influence of the sigmoid function parameters on the
+  speed of backpropagation learning,'' in {\em From Natural to Artificial
+  Neural Computation} (J.~Mira and F.~Sandoval, eds.), vol.~930 of {\em Lecture
+  Notes in Computer Science}, pp.~195--201, Springer Berlin Heidelberg, 1995.
+
+\bibitem{Venugopal:1994:NNforMR}
+V.~Venugopal and W.~Baets, ``Neural networks and statistical techniques in
+  marketing research: A conceptual comparison,'' {\em Marketing Intelligence \&
+  Planning}, vol.~12, no.~7, pp.~30--38, 1994.
+
+\bibitem{Ackley:1985:LAforBM}
+D.~H. Ackley, G.~E. Hinton, and T.~J. Sejnowski, ``A learning algorithm for
+  boltzmann machines,'' {\em Cognitive Science}, vol.~9, no.~1, pp.~147--169,
+  1985.
+
+\bibitem{Jain:1996:ANN-AT}
+A.~K. Jain, J.~Mao, and K.~M. Mohiuddin, ``Artificial neural networks: A
+  tutorial,'' {\em Computer}, vol.~29, no.~3, pp.~31--44, 1996.
+
+\bibitem{Webb:2003:SPR}
+A.~R. Webb, {\em Statistical pattern recognition}.
+\newblock Wiley. com, 2003.
+
+\bibitem{DIP:2008:RinBI}
+``Regions in binary images,'' in {\em Digital Image Processing}, Texts in
+  Computer Science, pp.~199--237, Springer London, 2008.
+
+\bibitem{SVD:web}
+``Singular value decomposition (svd) tutorial.''
+  \url{http://web.mit.edu/be.400/www/SVD/Singular_Value_Decomposition.htm}.
+\newblock Accessed: 2013-12-01.
+
+\bibitem{Dil:web}
+A.~W. R.~Fisher, S.~Perkins and E.~Wolfart, ``Dilation.''
+  \url{http://homepages.inf.ed.ac.uk/rbf/HIPR2/dilate.htm}.
+\newblock Accessed: 2013-12-01.
+
+\bibitem{Floyd:web}
+``Flood fill.'' \url{http://lodev.org/cgtutor/floodfill.html}.
+\newblock Accessed: 2013-12-01.
+
+\bibitem{YUV:web}
+``Yuv colorspace.''
+  \url{http://softpixel.com/~cwright/programming/colorspace/yuv/}.
+\newblock Accessed: 2013-12-01.
+
+\bibitem{Mirzaian:AofUF:web}
+A.~Mirzaian, ``Advanced data structures. lecture notes: Analysis of the
+  union-find algorithm.''
+  \url{http://www.cse.yorku.ca/~andy/courses/4101/lecture-notes/LN6.pdf}.
+\newblock Accessed: 2013-12-06.
+
+\bibitem{UF:proof2}
+S.~Alstrup, I.~Gortz, and Rauhe, ``Union-find with constant time deletions,''
+  in {\em Automata, Languages and Programming}, vol.~3580 of {\em Lecture Notes
+  in Computer Science}, pp.~78--89, Springer Berlin Heidelberg, 2005.
+
+\bibitem{Cordeiro:2012:Minkowski}
+R.~C. de~Amorim and B.~Mirkin, ``Minkowski metric, feature weighting and
+  anomalous cluster initializing in k-means clustering,'' {\em Pattern
+  Recognition}, vol.~45, no.~3, pp.~1061 -- 1075, 2012.
+
+\bibitem{Devillard:FMS:web}
+N.~Devillard, ``Fast median search.''
+  \url{http://ndevilla.free.fr/median/median.pdf}.
+\newblock Retrieved: October 2004.
+
+\bibitem{Epshtein:SWT:2010}
+B.~Epshtein, E.~Ofek, and Y.~Wexler, ``Detecting text in natural scenes with
+  stroke width transform,'' in {\em Computer Vision and Pattern Recognition
+  (CVPR), 2010 IEEE Conference on}, pp.~2963--2970, 2010.
+
+\bibitem{Saurav:SWT:2010}
+S.~Kumar and A.~Perrault, ``Text detection on nokia n9000 using stroke width
+  transform,'' 2010.
+
+\bibitem{ICDAR:web}
+ICDAR, ``Icdar 2013.'' \url{http://www.icdar2013.org/}.
+\newblock Accessed: November 2013.
+
+\bibitem{GRAY7:web}
+T.~Helland, ``Seven grayscale conversion algorithms.''
+  \url{http://www.tannerhelland.com/3643/}.
+\newblock Accessed: October 2013.
+
+\bibitem{GRAYused:web}
+N.~Pipenbrinck, ``Arm neon optimization. an example.''
+  \url{http://hilbert-space.de/?p=22}.
+\newblock Accessed: November 2013.
+
+\bibitem{Sappear:web}
+Sappear, ``Sappear.'' \url{http://sappear.com/}.
+\newblock Accessed: December 2013.
+
+\bibitem{Eugene:Color}
+E.~Vishnevsky, ``Color conversion algorithms.''
+  \url{http://www.cs.rit.edu/~ncs/color/t_convert.html}.
+\newblock Accessed: October 2013.
+
+\bibitem{li:2012:scene}
+Y.~Li and H.~Lu, ``Scene text detection via stroke width,'' in {\em Pattern
+  Recognition (ICPR), 2012 21st International Conference on}, pp.~681--684,
+  IEEE, 2012.
+
+\bibitem{Biswas:2010:IsoCovers}
+A.~Biswas, P.~Bhowmick, and B.~B. Bhattacharya, ``Construction of isothetic
+  covers of a digital object: A combinatorial approach,'' {\em Journal of
+  Visual Communication and Image Representation}, vol.~21, no.~4, pp.~295--310,
+  2010.
+
+\bibitem{Davis:1975:SuED}
+L.~S. Davis, ``{A survey of edge detection techniques},'' {\em Computer
+  Graphics and Image Processing}, vol.~4, no.~3, pp.~248--270, 1975.
+
+\bibitem{senthilkumaran:2009:EDforIS}
+N.~Senthilkumaran and R.~Rajesh, ``{Edge detection techniques for image
+  segmentation--a survey of soft computing approaches},'' {\em International
+  Journal of Recent Trends in Engineering}, vol.~1, no.~2, pp.~250--254, 2009.
+
+\bibitem{Gonzalez:2000:PID}
+R.~C. Gonzalez and R.~E. Woods, {\em {Processamento de Imagens Digitais}}.
+\newblock Edgard Blucher, 2000.
+
+\bibitem{Marques:1999:PDI}
+O.~M. Filho and H.~V. Neto, {\em {Processamento digital de imagens}}.
+\newblock Brassport, 1999.
+
+\bibitem{Castleman:1996:DIP}
+K.~R. Castleman, {\em {Digital Image Processing}}.
+\newblock Upper Saddle River, NJ, USA: Prentice Hall Press, 1996.
+
+\bibitem{Harley:1993:HandBook}
+H.~R. Myler and A.~R. Weeks, {\em {The pocket handbook of image processing
+  algorithms in C}}.
+\newblock Prentice Hall, 1993.
+
+\end{thebibliography}

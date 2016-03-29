@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: ieeetr.bst
+A level-1 auxiliary file: ape-laptop.aux
+Database file #1: bibliografia.bib
+Warning--entry type for "NoSQLes:Online" isn't style-file defined
+--line 276 of file bibliografia.bib
+Warning--empty institution in Frankel:1996:WIS
+Warning--empty journal in Baz:2009:DM
+Warning--empty author in DIP:2008:RinBI
+You've used 87 entries,
+            1876 wiz_defined-function locations,
+            1059 strings with 18465 characters,
+and the built_in function-call counts, 21925 in all, are:
+= -- 2232
+> -- 661
+< -- 0
++ -- 259
+- -- 172
+* -- 1406
+:= -- 2939
+add.period$ -- 116
+call.type$ -- 87
+change.case$ -- 78
+chr.to.int$ -- 0
+cite$ -- 90
+duplicate$ -- 1133
+empty$ -- 2301
+format.name$ -- 172
+if$ -- 5537
+int.to.chr$ -- 0
+int.to.str$ -- 87
+missing$ -- 83
+newline$ -- 293
+num.names$ -- 91
+pop$ -- 358
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 798
+stack$ -- 0
+substring$ -- 1430
+swap$ -- 446
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 3
+while$ -- 205
+width$ -- 89
+write$ -- 858
+(There were 4 warnings)
